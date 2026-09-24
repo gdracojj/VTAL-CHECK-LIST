@@ -1,0 +1,18 @@
+# Dados sensíveis e credenciais (WhatsApp e colaboradores)
+*.env
+.env*
+data/*.json
+data/*.csv
+*.log
+
+# Ambiente virtual do Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Arquivos do sistema operacional e editores
+.vscode/
+.idea/
+.DS_Store
