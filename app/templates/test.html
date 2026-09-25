@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VTAL CCOR - Teste de mensagens</title>
+
+<style>
+:root{
+  --bg:#f3f6f5;
+  --surface:#ffffff;
+  --surface-2:#eaf0ee;
+  --line:#dbe4e1;
+
+  --text:#0a1c2e;
+  --muted:#5b6b78;
+
+  --brand:#2c7366;
+  --brand-strong:#195a53;
+  --brand-soft:#52a58d;
+
+  --navy:#0a1c2e;
+
+  --regular:#16a34a;
+  --sem-assuncao:#dc2626;
+  --identificada:#64748b;
+
+  --radius:10px;
+}
+
+:root[data-theme="dark"]{
+  --bg:#0b141d;
+  --surface:#111d29;
+  --surface-2:#172636;
+  --line:#22364a;
+
+  --text:#e6eef2;
+  --muted:#93a4b3;
+
+  --brand:#52a58d;
+  --brand-strong:#7cc4ae;
+
+  --regular:#4ade80;
+  --sem-assuncao:#f87171;
+  --identificada:#94a3b8;
+}
+
+*{ box-sizing:border-box; }
+html{ color-scheme:light; }
+html[data-theme="dark"]{ color-scheme:dark; }
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Ubuntu,"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  font-size:15px;
+  line-height:1.45;
+}
+
+button, input, textarea{ font-family:inherit; }
+:focus-visible{ outline:3px solid var(--brand-soft); outline-offset:2px; }
+
+.topbar{
+  background:var(--navy);
+  color:#fff;
+  border-bottom:3px solid var(--brand);
+}
+
+.topbar-in{
+  max-width:900px;
+  margin:0 auto;
+  padding:14px 24px;
+  display:flex;
+  align-items:center;
+  gap:24px;
+  flex-wrap:wrap;
+}
+
+.logo{ height:38px; width:auto; display:block; object-fit:contain; }
+
+.title{ flex:1; min-width:180px; border-left:1px solid #ffffff33; padding-left:24px; }
+.title h1{ margin:0; font-size:19px; font-weight:500; letter-spacing:.2px; }
+.title p{ margin:2px 0 0; font-size:13px; color:#9fb3c2; }
+
+.clock{ text-align:right; font-variant-numeric:tabular-nums; }
+.clock strong{ display:block; font-size:22px; font-weight:500; line-height:1.1; }
+.clock span{ font-size:12px; color:#9fb3c2; }
+
+.icon-btn{
+  background:transparent;
+  border:1px solid #ffffff44;
+  color:#fff;
+  border-radius:8px;
+  padding:8px 12px;
+  cursor:pointer;
+  font:inherit;
+  font-size:13px;
+}
+.icon-btn:hover{ background:#ffffff14; }
+
+main{ max-width:900px; margin:0 auto; padding:24px; display:flex; flex-direction:column; gap:20px; }
+
+.card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:20px 22px;
+}
+
+.card-label{
+  display:block;
+  color:var(--brand);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.8px;
+  margin-bottom:2px;
+}
+
+.card h2{ margin:2px 0 6px; font-size:18px; font-weight:500; }
+.card p{ margin:0 0 16px; color:var(--muted); font-size:14px; }
+
+.row{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+
+.btn{
+  display:inline-block;
+  padding:10px 16px;
+  background:var(--brand);
+  color:#fff;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:500;
+  font-size:14px;
+  border:0;
+  cursor:pointer;
+  font-family:inherit;
+}
+.btn:hover{ background:var(--brand-strong); }
+.btn:disabled{ opacity:.6; cursor:default; }
+html[data-theme="dark"] .btn{ color:#06222b; }
+
+.btn.ghost{ background:transparent; color:var(--text); border:1px solid var(--line); }
+.btn.ghost:hover{ background:var(--surface-2); }
+
+label{
+  display:block;
+  font-size:12px;
+  font-weight:600;
+  color:var(--muted);
+  margin-bottom:6px;
+}
+
+.field{ margin-bottom:16px; }
+
+input[type="text"], textarea{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:var(--surface);
+  color:var(--text);
+  font:inherit;
+  resize:vertical;
+}
+
+textarea{ min-height:200px; }
+
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:3px 10px;
+  border-radius:999px;
+  font-size:12.5px;
+  font-weight:500;
+  color:var(--c);
+  background:color-mix(in srgb, var(--c) 14%, transparent);
+  border:1px solid color-mix(in srgb, var(--c) 35%, transparent);
+  white-space:nowrap;
+}
+.badge::before{ content:""; width:7px; height:7px; border-radius:50%; background:var(--c); }
+
+.badge.ok{ --c:var(--regular); }
+.badge.err{ --c:var(--sem-assuncao); }
+.badge.idle{ --c:var(--identificada); }
+
+.result-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+}
+
+pre{
+  margin:0;
+  padding:14px 16px;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:8px;
+  font-size:13px;
+  line-height:1.5;
+  overflow:auto;
+  max-height:400px;
+  white-space:pre-wrap;
+  word-break:break-word;
+}
+
+.empty{ color:var(--muted); font-size:14px; }
+
+@media(max-width:560px){
+  main{ padding:16px; }
+  .title{ border-left:0; padding-left:0; }
+  .clock{ text-align:left; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <img class="logo" src="/static/PD7_FACILITIES_ContornoRGB.png" alt="PD7 Facilities">
+
+    <div class="title">
+      <h1>VTAL CCOR - Teste de mensagens</h1>
+      <p>Simular e conferir assunções manualmente</p>
+    </div>
+
+    <div class="clock" aria-live="off">
+      <strong id="clock">--:--:--</strong>
+      <span>Horário de Brasília</span>
+    </div>
+
+    <button class="icon-btn" id="theme" type="button" aria-label="Alternar tema claro e escuro">Tema</button>
+  </div>
+</header>
+
+<main>
+
+<section class="card">
+  <span class="card-label">DADOS DE TESTE</span>
+  <h2>Carregar exemplos reais</h2>
+  <p>Popula o sistema com mensagens de exemplo já conhecidas, prontas para conferência no dashboard.</p>
+
+  <div class="row">
+    <button type="button" class="btn" id="load-samples">Carregar exemplos reais</button>
+    <a class="btn ghost" href="/">Abrir dashboard</a>
+    <span class="badge idle" id="samples-status" hidden></span>
+  </div>
+</section>
+
+<section class="card">
+  <span class="card-label">SIMULAÇÃO MANUAL</span>
+  <h2>Enviar uma mensagem</h2>
+  <p>Cole uma mensagem como ela chegaria pelo WhatsApp e veja como o sistema interpreta.</p>
+
+  <form id="f">
+    <div class="field">
+      <label for="group">Grupo / posto</label>
+      <input type="text" id="group" placeholder="Ex.: Posto Central - Grupo Noturno">
+    </div>
+
+    <div class="field">
+      <label for="message">Mensagem</label>
+      <textarea id="message" placeholder="Cole a mensagem do WhatsApp"></textarea>
+    </div>
+
+    <button type="submit" class="btn" id="submit-msg">Processar</button>
+  </form>
+</section>
+
+<section class="card">
+  <div class="result-head">
+    <h2 style="margin:0">Resultado</h2>
+    <span class="badge idle" id="result-status">aguardando</span>
+  </div>
+
+  <p class="empty" id="result-empty">Nenhuma mensagem processada ainda.</p>
+  <pre id="out" hidden></pre>
+</section>
+
+</main>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var saved = null;
+  try{ saved = localStorage.getItem('vtal-theme'); }catch(e){}
+  root.setAttribute('data-theme', saved || 'light');
+
+  document.getElementById('theme').addEventListener('click', function(){
+    var current = root.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try{ localStorage.setItem('vtal-theme', next); }catch(e){}
+  });
+
+  var clock = document.getElementById('clock');
+  function tick(){
+    clock.textContent = new Date().toLocaleTimeString('pt-BR', { timeZone:'America/Sao_Paulo', hour12:false });
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  var loadBtn = document.getElementById('load-samples');
+  var samplesStatus = document.getElementById('samples-status');
+
+  function setBadge(el, kind, text){
+    el.hidden = false;
+    el.className = 'badge ' + kind;
+    el.textContent = text;
+  }
+
+  loadBtn.addEventListener('click', async function(){
+    loadBtn.disabled = true;
+    setBadge(samplesStatus, 'idle', 'carregando...');
+    try{
+      var r = await fetch('/api/load-samples', { method:'POST' });
+      if(r.ok){
+        setBadge(samplesStatus, 'ok', 'exemplos carregados');
+      }else{
+        setBadge(samplesStatus, 'err', 'erro (' + r.status + ')');
+      }
+    }catch(e){
+      setBadge(samplesStatus, 'err', 'falha de conexão');
+    }finally{
+      loadBtn.disabled = false;
+    }
+  });
+
+  var form = document.getElementById('f');
+  var submitBtn = document.getElementById('submit-msg');
+  var resultStatus = document.getElementById('result-status');
+  var resultEmpty = document.getElementById('result-empty');
+  var out = document.getElementById('out');
+
+  form.addEventListener('submit', async function(e){
+    e.preventDefault();
+    submitBtn.disabled = true;
+    setBadge(resultStatus, 'idle', 'processando...');
+
+    try{
+      var r = await fetch('/api/messages', {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify({
+          group: document.getElementById('group').value,
+          message: document.getElementById('message').value
+        })
+      });
+
+      var data = await r.json();
+
+      resultEmpty.hidden = true;
+      out.hidden = false;
+      out.textContent = JSON.stringify(data, null, 2);
+
+      setBadge(resultStatus, r.ok ? 'ok' : 'err', r.ok ? 'sucesso' : 'erro (' + r.status + ')');
+    }catch(e){
+      resultEmpty.hidden = true;
+      out.hidden = false;
+      out.textContent = String(e);
+      setBadge(resultStatus, 'err', 'falha de conexão');
+    }finally{
+      submitBtn.disabled = false;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1418 @@
+[
+  {
+    "employee": "VAUCELIO LEVE TORREJOM",
+    "post": "AC-RBO-RBCE",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ELISON NUNES DOS SANTOS",
+    "post": "AM-MNS-CE",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "SIRLANDO SILVA",
+    "post": "AM-MNS-PA",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "SAMUEL SANTOS DE CARVALHO",
+    "post": "BA-ITB-ITB",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "TAYANNE TOLSTOI DE SOUTO MEDEIROS",
+    "post": "PB-JPA-EPS",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ADELIA VIRGINIA DO NASCIMENTO",
+    "post": "PB-JPA-VPT",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ALDECI PEREIRA DA SILVA JUNIOR",
+    "post": "RN-NTL-ALM",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MÁRCIO JOSÉ CUTRIM LIMA",
+    "post": "MA-SIS-SIS",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "THAISI VIVIAN DOS SANTOS SILVA",
+    "post": "AL-MCO-FA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "VALMIRAN PIRES DA SILVA",
+    "post": "AL-MCO-JT",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ROBERTO HENRIQUE MACIEL PONTES",
+    "post": "AP-MPA-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "GILVAN CERQUEIRO DOS SANTOS",
+    "post": "BA-FSA-GOVS",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANTÔNIO CARLOS BORGES DA SILVA",
+    "post": "BA-SDR-ROMA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CLAUDIANA LIMA DOS SANTOS",
+    "post": "BA-SDR-BDEA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "PATRICIA MARTINEZ",
+    "post": "BA-SDR-CPIS",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "GILDASIO PEREIRA DE ASSUNÇÃO",
+    "post": "BA-SDR-BRRR",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "LUIS GUSTAVO SANTOS RANGEL DA SILVA",
+    "post": "BA-SDR-IGAW",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ALYSON JAVÉ TRANCOSO DOS SANTOS GOMES",
+    "post": "BA-VCA-VCA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSÉ VANDEIR DA SILVA CUNHA",
+    "post": "CE-FLA-ALD",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "RAYANE DA SILVA MARCOS",
+    "post": "CE-FLA-CEN",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSELIAS SOUSA OLIVEIRA",
+    "post": "CE-FLA-GNET",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "DENIS SAMESON",
+    "post": "CE-FLA-MES",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "LEONARDO BARROS VIANA",
+    "post": "CE-FLA-MGAL",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ADRIANA GOMES ALTINO",
+    "post": "CE-FLA-PRN",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSÉ CLAUDERLY ALVES RODRIGUES",
+    "post": "CE-IAU-IAU",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "THAUAN SOUSA CARDOSO",
+    "post": "MA-ACD-ACD",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "BRUNO DE SANTANA SILVA",
+    "post": "MA-ITZ-ITZ",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "TARCISO MENDES DA LUZ",
+    "post": "MA-SLS-ANL",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CARLOS CELSO",
+    "post": "MA-SLZ-VHS",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "FRANCICLOVES CUTRIM COSTA",
+    "post": "MA-SLS-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANA PRISCILA SILVA MORAES",
+    "post": "PA-BLM-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MAIK BRUNO DA COSTA SOUSA",
+    "post": "PA-GOPA-GOP",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "RAFAEL COSTA DA CRUZ",
+    "post": "PA-MBA-NBA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MOACIR OLIVEIRA",
+    "post": "PA-BLM-MIA",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CHAYENI MARIA SANTOS DE OLIVEIRA",
+    "post": "PE-RCE-EBVG",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSE RICARDO GOMES ACIOLE DA SILVA",
+    "post": "PE-RCE-EBVT",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CLEUBER MARTINS DE SÁ FILHO",
+    "post": "PE-SGI-ESGI",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CLAUDIO ROBERTO DA SILVA RODRIGUES",
+    "post": "PI-TSA-CTOP",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "DAVID DE LIMA FERNANDES",
+    "post": "PI-TSA-JKY",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CASSIO DA SILVA FONSECA",
+    "post": "RN-NTL-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "SILMARA",
+    "post": "RO-PVO-EDPO",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CLEIDIANE CALIMAN MARIANO",
+    "post": "RO-JIP-EJIP",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "DAIANA NÚBIA BARRETO DOS SANTOS",
+    "post": "RR-BVA-CE",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOÃO EVANGELISTA RODRIGUES SANTOS",
+    "post": "SE-AJU-AJU",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSÉ GUSTAVO MORAIS SANTOS",
+    "post": "SE-AJU-GGU",
+    "expected_time": "07:00",
+    "plantao": "diurno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MILENE DE LIMA DE SOUZA",
+    "post": "AC-RBO-RBCE",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ADALTO TAVARES DUVAL",
+    "post": "AM-MNS-CE",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MIQUERLAN CARVALHO TAPODIMA",
+    "post": "AM-MNS-PA",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "PEDRO AELTON LOPES DA PAIXÃO",
+    "post": "BA-ITB-ITB",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MÁRCIO JOSÉ CUTRIM LIMA",
+    "post": "MA-SIS-SIS",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "LILIANE DE CASTRO RIMÁ",
+    "post": "PB-JPA-EPS",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSÉ FABIANO PEDROSA",
+    "post": "PB-JPA-VPT",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ROSANGELA SANTOS DA SILVA",
+    "post": "RN-NTL-ALM",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MAITE LIVIA CONCEIÇAO SANTOS",
+    "post": "AL-MCO-FA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "VITOR SAMUEL VITURINO DOS SANTOS",
+    "post": "AL-MCO-JT",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ÁUREO FABIO DA SILVA",
+    "post": "AM-MNS-DC",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "AJAX FERREIRA MACIEL",
+    "post": "AP-MPA-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ROBERT FERREIRA",
+    "post": "BA-SDR-CPIS",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOILSON PEREIRA OLIVEIRA",
+    "post": "BA-FSA-GOVS",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JEFFERSON SANTOS DA SILVA",
+    "post": "BA-SDR-BDEA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "CÉZAR SANTOS CERQUEIRA",
+    "post": "BA-SDR-BRRR",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MIGUEL ARAÚJO",
+    "post": "BA-SDR-ROMA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ALEXANDRO DOS SANTOS FREIRE",
+    "post": "BA-SDR-IGAW",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MARLENE COSTA DE OLIVEIRA",
+    "post": "BA-SDR-POLA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "GEORGE DE OLIVEIRA BASTOS",
+    "post": "BA-VCA-VCA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "FRANCISCO ISMAEL SOUZA SILVA",
+    "post": "CE-FLA-ALD",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "IVANILDO DE SOUSA SILVINO",
+    "post": "CE-FLA-CEN",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANTONIO AUGUSTO RODRIGUES BARROS",
+    "post": "CE-FLA-GNET",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOSÉ LEANDRO DELMIRO DO NASCIMENTO",
+    "post": "CE-FLA-MGAL",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOAO MARCOS ALVES VIEIRA",
+    "post": "CE-IAU-IAU",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANTÔNIO MARCOS SANTOS DA CRUZ",
+    "post": "MA-ACD-ACD",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "WANDERSON CARDOSO",
+    "post": "MA-ITZ-ITZ",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "DANÚBIA LÍDIA PEREIRA ESTRELA LOBATO",
+    "post": "MA-SLS-ANL",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "IGOR ERICK MOURA BEZERRA",
+    "post": "MA-SLS-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANA PAULA NOGUEIRA DA SILVA TRINDADE",
+    "post": "PA-BLM-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "LEANDRO ALAN DA SILVA DUARTE",
+    "post": "PA-BLM-MIA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "HUGO DOS SANTOS NERIS",
+    "post": "PA-GOPA-GOP",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MACIEL PEREIRA DA SILVA",
+    "post": "PA-MBA-NBA",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANDREA ALVES DA SILVA",
+    "post": "PE-RCE-EBVG",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "LUCAS DE CARVALHO SILVA",
+    "post": "PE-RCE-EBVT",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "GABRIEL DE LIRA FRANÇA FREIRE",
+    "post": "PE-SGI-ESGI",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ANTONIO FRANCSICO",
+    "post": "PI-TSA-CTOP",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MARCOS ASSUNÇÃO ARAGÃO MARQUES",
+    "post": "PI-TSA-JKY",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JEFFERSON DE OLIVEIRA PINHEIRO",
+    "post": "RN-NTL-CTO",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "GILVAN EDMILSON CABRAL MONTEIRO",
+    "post": "RO-PVO-EDPO",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "ALEXANDER HENRIQUE",
+    "post": "RO-JIP-EJIP",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "EDVALDO FERREIRA DA SILVA JUNIOR",
+    "post": "RR-BVA-CE",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "MARIA ISABEL SILVA DE OLIVEIRA",
+    "post": "SE-AJU-GGU",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "JOÃO EVANGELISTA",
+    "post": "SE-AJU-AJU",
+    "expected_time": "07:00",
+    "plantao": "diurno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Vaucelio Leve Torrejom",
+    "post": "AC-RBO-RBCE",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Elison Nunes dos Santos",
+    "post": "AM-MNS-CE",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Samuel Santos de Carvalho",
+    "post": "BA-ITB-ITB",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Tayanne Tolstoi de Souto Medeiros",
+    "post": "PB-JPA-EPS",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Adelia Virginia do Nascimento",
+    "post": "PB-JPA-VPT",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Aldeci Pereira da Silva Junior",
+    "post": "RN-NTL-ALM",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Thaisi Vivian dos Santos Silva",
+    "post": "AL-MCO-FA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Valmiran Pires da Silva",
+    "post": "AL-MCO-JT",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Sirlando Silva dos Santos",
+    "post": "AM-MNS-PA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Roberto Henrique Maciel Pontes",
+    "post": "AP-MPA-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Gilvan Cerqueiro dos Santos",
+    "post": "BA-FSA-GOVS",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Ryan Gustavo",
+    "post": "BA-SDR-CPIS",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Claudiana Lima dos Santos",
+    "post": "BA-SDR-BDEA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Gildasio Pereira de Assunção",
+    "post": "BA-SDR-BRRR",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Luis Gustavo",
+    "post": "BA-SDR-IGAW",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Antonio Carlos Borges",
+    "post": "BA-SDR-ROMA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Alyson Javé Trancoso dos Santos Gomes",
+    "post": "BA-VCA-VCA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "José Vandeir da Silva Cunha",
+    "post": "CE-FLA-ALD",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Rayane da Silva Marcos",
+    "post": "CE-FLA-CEN",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Joselias Sousa Oliveira",
+    "post": "CE-FLA-GNET",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Leonardo Barros Viana",
+    "post": "CE-FLA-MGAL",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "José Clauderly Alves Rodrigues",
+    "post": "CE-IAU-IAU",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Thauan Sousa Cardoso",
+    "post": "MA-ACD-ACD",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Bruno de Santana Silva",
+    "post": "MA-ITZ-ITZ",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Tarciso Mendes da Luz",
+    "post": "MA-SLS-ANL",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Francicloves Cutrim Costa",
+    "post": "MA-SLS-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Ana Priscila Silva Moraes",
+    "post": "PA-BLM-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Moacir de Oliveira",
+    "post": "PA-BLM-MIA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Maik Bruno da Costa",
+    "post": "PA-GOPA-GOP",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Rafael Costa da Cruz",
+    "post": "PA-MBA-NBA",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Chayeni Maria Santos de Oliveira",
+    "post": "PE-RCE-EBVG",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Jose Ricardo Gomes Aciole da Silva",
+    "post": "PE-RCE-EBVT",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Cleuber Martins de Sá Filho",
+    "post": "PE-SGI-ESGI",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Claudio Roberto da Silva Rodrigues",
+    "post": "PI-TSA-CTOP",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "David de Lima Fernandes",
+    "post": "PI-TSA-JKY",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Cássio Silva",
+    "post": "RN-NTL-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Ocicleide Ferreira Brito",
+    "post": "RO-PVO-EDPO",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Cleidiane Caliman Mariano",
+    "post": "RO-JIP-EJIP",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Keila de Souza Feijó",
+    "post": "RR-BVA-CE",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "João Evangelista Rodrigues Santos",
+    "post": "SE-AJU-AJU",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "José Gustavo Morais dos Santos",
+    "post": "SE-AJU-GGU",
+    "expected_time": "19:00",
+    "plantao": "noturno_a",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Leonardo Ferreira de Araújo",
+    "post": "AC-RBO-RBCE",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Araldo Araújo Bitencourt",
+    "post": "AM-MNS-PA",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Antônio Marcos Ferreira Guimarães",
+    "post": "AM-MNS-CE",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Reginaldo Santos Barbosa",
+    "post": "BA-ITB-ITB",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Paulo Roberto Soares de Oliveira",
+    "post": "PB-JPA-EPS",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "David Pessoa do Nascimento",
+    "post": "PB-JPA-VPT",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Jefferson Mateus Pereira da Silva",
+    "post": "RN-NTL-ALM",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Rogerio da Silva Fagundes",
+    "post": "AL-MCO-FA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Jose Costa da Silva",
+    "post": "AL-MCO-JT",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Maria da Conceição de Souza Moldes",
+    "post": "AM-MNS-CN",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Joel Carril",
+    "post": "AM-MNS-DC",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Gleidson dos Santos Lopes",
+    "post": "AP-MPA-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Juliana dos Santos e Santos",
+    "post": "BA-SDR-BDEA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Ryan Gustavo",
+    "post": "BA-SDR-BRRR",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Joilson Pereira",
+    "post": "BA-FSA-GOVS",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Pedro Vitor da Conceição Rocha",
+    "post": "BA-SDR-CPIS",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Gabriel Silva Ramos",
+    "post": "BA-SDR-IGAW",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Claudio Jesus dos Santos",
+    "post": "BA-SDR-ROMA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "João Carlos Silva Maciel",
+    "post": "BA-VCA-VCA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Walnei Rêgo de Menezes",
+    "post": "CE-FLA-ALD",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Francisco da Silva",
+    "post": "CE-FLA-CEN",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Francisco Gerlano Maciel de Souza",
+    "post": "CE-FLA-GNET",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Humberto Oriano Rodrigues",
+    "post": "CE-FLA-MES",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "José Elias Ferreira de Almeida Junior",
+    "post": "CE-FLA-MGAL",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Francisco Jardel dos Santos",
+    "post": "CE-FLA-MOM",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Endson Costa Silva",
+    "post": "CE-FLA-PRN",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Eduardo Alves da Silva",
+    "post": "MA-ACD-ACD",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Antônio Francisco Nascimento de Alencar",
+    "post": "MA-ITZ-ITZ",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Luzivaldo Borges Pinheiro",
+    "post": "MA-SLS-ANL",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Silvio Roberto Reis Máximo",
+    "post": "MA-SLS-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Diogo Luis Rodrigues de Souza",
+    "post": "MA-SLS-VHS",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Ivy Lourinho de Souza",
+    "post": "PA-BLM-ANN",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Maylon de Jesus Silva da Fonseca",
+    "post": "PA-BLM-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Rafael Nogueira Meireles",
+    "post": "PA-BLM-MIA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Cauã Rodrigues Ferreira",
+    "post": "PA-MBA-NBA",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Jose Claudio Martinho de Santana",
+    "post": "PE-RCE-EBVG",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Adeilson Jose dos Santos",
+    "post": "PE-RCE-EBVT",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Danilo Alves de Barros França",
+    "post": "PE-SGI-ESGI",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Antônio Francisco Carlos da Silva Santos",
+    "post": "PI-TSA-CTOP",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Gustavo Marcelo Gonçalves Almeida",
+    "post": "PI-TSA-JKY",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Nazareno Barbosa Trajano",
+    "post": "RN-NTL-CTO",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Leandro Soares da Silva",
+    "post": "RO-JIP-EJIP",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Walason Nunes de Castro",
+    "post": "RO-PVO-ETCN",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Antonio Marcio Orlean Reis Nogueira",
+    "post": "RO-PVO-EDPO",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Keila de Souza Feijó",
+    "post": "RR-BVA-CE",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Marcio José dos Santos",
+    "post": "SE-AJU-AJU",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  },
+  {
+    "employee": "Eudes Santos Leite",
+    "post": "SE-AJU-GGU",
+    "expected_time": "19:00",
+    "plantao": "noturno_b",
+    "date": "2026-09-25",
+    "active": true
+  }
+]

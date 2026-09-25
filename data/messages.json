@@ -1,0 +1,145 @@
+[
+  {
+    "group": "BA-FSA-GOVS",
+    "raw": "DATA: 25/09/26\nTURNO: 07:00 as 19:00\nAssunção de serviço.\nVigia: Gilvan Cerqueira dos Santos\nAssumido o plantão sem alteração.",
+    "post_raw": "BA-FSA-GOVS",
+    "incoming": "Gilvan Cerqueira dos Santos",
+    "outgoing": null,
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.429172"
+  },
+  {
+    "group": "AC-RBO-RBCE",
+    "raw": "Assunção de Serviço\nEstação AC-RBO-RBCE\nData: 25/09/2026\nVigia: Vaucelio Leve assumo o plantão do vigia (Luiz Lima) às (06h) até às (18h)",
+    "post_raw": "AC-RBO-RBCE",
+    "incoming": "Vaucelio Leve",
+    "outgoing": null,
+    "assumption_time": "06:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.446485"
+  },
+  {
+    "group": "RO-PVO-EDPO",
+    "raw": "RO-PVO-EDPO\nData:25/09/2026\nAssunção de plantão às 06:54\nSilmara\nRecebi o posto de Antônio",
+    "post_raw": "RO-PVO-EDPO",
+    "incoming": null,
+    "outgoing": "Antônio",
+    "assumption_time": "06:54",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.454182"
+  },
+  {
+    "group": "AL-MCO-JT",
+    "raw": "AL-MCO-JT\nAssunção de Serviço\nVigia Anderson Silva estou recebendo o plantão do vigia noturno José Costa da Silva, com turno das 07:00 as 19:00",
+    "post_raw": "AL-MCO-JT",
+    "incoming": "Anderson Silva",
+    "outgoing": "noturno José Costa da Silva",
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.463415"
+  },
+  {
+    "group": "RN-NTL-CTO",
+    "raw": "POSTO-RN-NTL-CTO\n25/09/2026\nASSUNÇÃO DE SERVIÇO\nVigia Jefferson de Oliveira Pinheiro, assumindo o serviço das 07:00hs as 19:00hs\nRecebi o serviço do Vigia: Nazareno Barbosa Trajano as 07:00hs.",
+    "post_raw": "RN-NTL-CTO",
+    "incoming": "Nazareno Barbosa Trajano as",
+    "outgoing": "Nazareno Barbosa Trajano as",
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.470399"
+  },
+  {
+    "group": "PE-RCE-EBVT",
+    "raw": "PE-RCE-EBVT\n25/09/2026\nVIGIA: Lucas guedea\nHORÁRIO: 07:00 às 19:00h\nAssumindo o serviço do vigia Adeilson santos com tudo em ordem sem alteração.",
+    "post_raw": "PE-RCE-EBVT",
+    "incoming": "Lucas guedea",
+    "outgoing": "Adeilson santos",
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.478846"
+  },
+  {
+    "group": "PI-TSA-CTOP",
+    "raw": "PI-TSA-CTOP PD7\n25/09/26\nASSUNÇÃO PLANTÃO 07:00 as 19:00 Cláudio Roberto Assumiu Posto Do Antônio\nVigia Cláudio Roberto Assumindo Serviço Das 07:00 as 19:00 Horas",
+    "post_raw": "PI-TSA-CTOP",
+    "incoming": "Cláudio Roberto",
+    "outgoing": null,
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.488440"
+  },
+  {
+    "group": "SE-AJU-AJU",
+    "raw": "Assunção de serviço\nVigia: João evangelista assumindo o posto de serviço das 07h as 19h do Vigia: Márcio José\nPosto V-tal SE AJU\ndata: 25/09/2026",
+    "post_raw": "SE-AJU-AJU",
+    "incoming": "João evangelista",
+    "outgoing": "Márcio José",
+    "assumption_time": "07:00",
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.496719"
+  },
+  {
+    "group": "AM-MNS-PA",
+    "raw": "data: 25/09/2026\nAM MNS PA\nASSUNCAO DE SERVIÇOS\nSIRLANDO SILVA\nSAINDO\nARALDO BITENCOURT",
+    "post_raw": "AM-MNS-PA",
+    "incoming": null,
+    "outgoing": "ARALDO BITENCOURT",
+    "assumption_time": null,
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T07:00:00",
+    "id": "1790360458.505886"
+  },
+  {
+    "group": "",
+    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
+    "post_raw": "BA-SSA-IGAW",
+    "incoming": "Gabriel Silva ramos",
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T15:21:28",
+    "id": "1790360488.482682"
+  },
+  {
+    "group": "",
+    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
+    "post_raw": "BA-SSA-IGAW",
+    "incoming": "Gabriel Silva ramos",
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T15:21:30",
+    "id": "1790360490.238744"
+  },
+  {
+    "group": "",
+    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
+    "post_raw": "BA-SSA-IGAW",
+    "incoming": "Gabriel Silva ramos",
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T15:21:30",
+    "id": "1790360490.633874"
+  },
+  {
+    "group": "  BA-SSA-IGAW",
+    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
+    "post_raw": "BA-SSA-IGAW",
+    "incoming": "Gabriel Silva ramos",
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-25",
+    "received_at": "2026-09-25T15:21:38",
+    "id": "1790360498.457265"
+  }
+]
