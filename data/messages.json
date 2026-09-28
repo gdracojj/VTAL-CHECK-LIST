@@ -8,7 +8,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.429172"
+    "id": "1790612999.865166"
   },
   {
     "group": "AC-RBO-RBCE",
@@ -19,7 +19,7 @@
     "assumption_time": "06:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.446485"
+    "id": "1790612999.875544"
   },
   {
     "group": "RO-PVO-EDPO",
@@ -30,7 +30,7 @@
     "assumption_time": "06:54",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.454182"
+    "id": "1790612999.886006"
   },
   {
     "group": "AL-MCO-JT",
@@ -41,7 +41,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.463415"
+    "id": "1790612999.901640"
   },
   {
     "group": "RN-NTL-CTO",
@@ -52,7 +52,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.470399"
+    "id": "1790612999.911431"
   },
   {
     "group": "PE-RCE-EBVT",
@@ -63,7 +63,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.478846"
+    "id": "1790612999.923810"
   },
   {
     "group": "PI-TSA-CTOP",
@@ -74,7 +74,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.488440"
+    "id": "1790612999.934242"
   },
   {
     "group": "SE-AJU-AJU",
@@ -85,7 +85,7 @@
     "assumption_time": "07:00",
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.496719"
+    "id": "1790612999.944721"
   },
   {
     "group": "AM-MNS-PA",
@@ -96,50 +96,6 @@
     "assumption_time": null,
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
-    "id": "1790360458.505886"
-  },
-  {
-    "group": "",
-    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
-    "post_raw": "BA-SSA-IGAW",
-    "incoming": "Gabriel Silva ramos",
-    "outgoing": null,
-    "assumption_time": null,
-    "date": "2026-09-25",
-    "received_at": "2026-09-25T15:21:28",
-    "id": "1790360488.482682"
-  },
-  {
-    "group": "",
-    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
-    "post_raw": "BA-SSA-IGAW",
-    "incoming": "Gabriel Silva ramos",
-    "outgoing": null,
-    "assumption_time": null,
-    "date": "2026-09-25",
-    "received_at": "2026-09-25T15:21:30",
-    "id": "1790360490.238744"
-  },
-  {
-    "group": "",
-    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
-    "post_raw": "BA-SSA-IGAW",
-    "incoming": "Gabriel Silva ramos",
-    "outgoing": null,
-    "assumption_time": null,
-    "date": "2026-09-25",
-    "received_at": "2026-09-25T15:21:30",
-    "id": "1790360490.633874"
-  },
-  {
-    "group": "  BA-SSA-IGAW",
-    "raw": "1️⃣ ASSUNÇÃO DE SERVIÇO\nEstação  BA-SSA-IGAW-Itaigara PD7 \nData: 25/09/2026\n\n  Vigia: Gabriel Silva ramos\nAssumo o plantão sem alteração\n\n2️⃣ MATERIAL / CARGA\n\nNÃO HOUVE MATERIAL DE CARGA\n\n3️⃣ OCORRÊNCIAS\nSEM ALTERAÇÕES \n\n4️⃣PASSAGEM DE SERVIÇO:\nSem alteração",
-    "post_raw": "BA-SSA-IGAW",
-    "incoming": "Gabriel Silva ramos",
-    "outgoing": null,
-    "assumption_time": null,
-    "date": "2026-09-25",
-    "received_at": "2026-09-25T15:21:38",
-    "id": "1790360498.457265"
+    "id": "1790612999.953591"
   }
 ]

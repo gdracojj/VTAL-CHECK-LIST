@@ -124,12 +124,7 @@ def dashboard_context(
         # STATUS PRINCIPAL
         # ----------------------------------------------------
 
-        if r.get("employee_divergence"):
-
-            counts["DIVERGÊNCIA"] += 1
-            status = "DIVERGÊNCIA"
-
-        elif timing == "REGULAR":
+        if timing == "REGULAR":
 
             counts["REGULAR"] += 1
             status = "REGULAR"
@@ -157,9 +152,11 @@ def dashboard_context(
 
         if r.get("employee_divergence"):
 
-           reason_parts.append(
-           "Colaborador informado diferente da escala (informativo)."
-     )
+            counts["DIVERGÊNCIA"] += 1
+
+            reason_parts.append(
+                "Colaborador informado diferente da escala (informativo)."
+            )
 
         if r.get("possible_wrong_group"):
 

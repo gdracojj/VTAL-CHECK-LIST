@@ -16,3 +16,12 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+
+# Dependências Node.js
+node_modules/
+
+# Sessão e cache do WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+whatsapp/.wwebjs_auth/
+whatsapp/.wwebjs_cache/

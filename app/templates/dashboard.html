@@ -1040,20 +1040,7 @@ tbody tr:hover{
     {{r.status}}
   </span>
 
-  {% if r.employee_divergence %}
-
-    <br>
-
-    <span
-      class="badge divergencia"
-      style="margin-top:6px"
-    >
-      DIVERGÊNCIA
-    </span>
-
-  {% endif %}
-
-  {% if r.possible_wrong_group %}
+    {% if r.possible_wrong_group %}
 
     <br>
 
