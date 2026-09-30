@@ -97,5 +97,429 @@
     "date": "2026-09-25",
     "received_at": "2026-09-25T07:00:00",
     "id": "1790612999.953591"
+  },
+  {
+    "group": "120363413612292600@g.us",
+    "raw": "Empresa: PD7 Tech Ltda\nBase V.tal: Posto RO-JIP-EJIP – Diurno\nData: 29/09/2026\nAssumindo serviço 18h00–06h00 \nCleidiane Caliman",
+    "post_raw": "RO-JIP-EJIP",
+    "incoming": "Cleidiane Caliman",
+    "outgoing": null,
+    "assumption_time": "18:00",
+    "date": "2026-09-29",
+    "received_at": "2026-09-30T19:13:01.000Z",
+    "validation": {
+      "status": "DIVERGÊNCIA",
+      "reason": "Horário divergente",
+      "employee": "CLEIDIANE CALIMAN MARIANO",
+      "post": "RO-JIP-EJIP",
+      "expected_post": "RO-JIP-EJIP",
+      "expected_time": "07:00",
+      "received_time": "18:00",
+      "score": 100.0,
+      "date": "2026-09-29"
+    },
+    "id": "1790795587.699023"
+  },
+  {
+    "group": "120363406687331271@g.us",
+    "raw": "Já Fiz A Limpeza Das Colunas De Ferro Aqui Do Corredor Que Dá Acesso  do Norte Sul a Oeste Sul . eu Me dês Neste Data 30/09",
+    "post_raw": "120363406687331271@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:13:19.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "120363406687331271@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795599.626510"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:02.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795702.713086"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:02.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795704.322638"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:02.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795704.842692"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:03.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795705.703356"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:03.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795706.447850"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:03.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795707.334495"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Acompanhamento da vistoria nas áreas interna e externa  do bloco C.",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:03.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795707.850894"
+  },
+  {
+    "group": "120363406687331271@g.us",
+    "raw": "",
+    "post_raw": "120363406687331271@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:15:06.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "120363406687331271@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790795709.151683"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:28:33.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796513.341136"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:28:33.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796513.510242"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:28:33.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796513.713182"
+  },
+  {
+    "group": "120363413612292600@g.us",
+    "raw": "Empresa: PD7 Tech Ltda\nBase V.tal: Posto RO-JIP-EJIP – Diurno\nData: 29/09/2026\nAssumindo serviço 18h00–06h00 \nCleidiane Caliman",
+    "post_raw": "RO-JIP-EJIP",
+    "incoming": "Cleidiane Caliman",
+    "outgoing": null,
+    "assumption_time": "18:00",
+    "date": "2026-09-29",
+    "received_at": "2026-09-30T19:28:50.000Z",
+    "validation": {
+      "status": "DIVERGÊNCIA",
+      "reason": "Horário divergente",
+      "employee": "CLEIDIANE CALIMAN MARIANO",
+      "post": "RO-JIP-EJIP",
+      "expected_post": "RO-JIP-EJIP",
+      "expected_time": "07:00",
+      "received_time": "18:00",
+      "score": 100.0,
+      "date": "2026-09-29"
+    },
+    "id": "1790796530.577568"
+  },
+  {
+    "group": "120363406687331271@g.us",
+    "raw": "Corredor principal que dá acesso  ao banheiro dos jogadores  nivel campo,estamos arrumando os forros do teto ,esta quase sendo finalizado, amanhã dou continuidade, agora vou fazer a limpeza na  área que nois trabalhamos\n\n\nAnderson zeferino \nOficial \n\nJoao \nAjudante",
+    "post_raw": "120363406687331271@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:30:45.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "120363406687331271@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796645.333150"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:32:15.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796735.984724"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "Bomba principal ( elétrica ).",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:32:16.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796736.199244"
+  },
+  {
+    "group": "5521975032579-1613136642@g.us",
+    "raw": "",
+    "post_raw": "5521975032579-1613136642@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:32:22.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521975032579-1613136642@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790796742.698523"
+  },
+  {
+    "group": "120363406687331271@g.us",
+    "raw": "",
+    "post_raw": "120363406687331271@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:37:57.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "120363406687331271@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790797078.436397"
+  },
+  {
+    "group": "120363425036418254@g.us",
+    "raw": "Devidamente autorizado pela: CSI-VTAL",
+    "post_raw": "CSI-VTAL",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:45:59.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "CSI-VTAL",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790797607.451727"
+  },
+  {
+    "group": "120363425036418254@g.us",
+    "raw": "Acessando VTAL-VCA-BA",
+    "post_raw": "VCA-BA",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T19:45:59.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "VCA-BA",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790797607.497847"
+  },
+  {
+    "group": "5521997047738-1451910659@g.us",
+    "raw": "*INFORME!*\n\nElevador SGA1 normalizado para operação após o término da atividade de coleta.",
+    "post_raw": "5521997047738-1451910659@G.US",
+    "incoming": null,
+    "outgoing": null,
+    "assumption_time": null,
+    "date": "2026-09-30",
+    "received_at": "2026-09-30T20:02:38.000Z",
+    "validation": {
+      "status": "PENDENTE",
+      "reason": "Colaborador não identificado",
+      "employee": null,
+      "post": "5521997047738-1451910659@G.US",
+      "expected_time": null,
+      "received_time": null
+    },
+    "id": "1790798559.589533"
   }
 ]
