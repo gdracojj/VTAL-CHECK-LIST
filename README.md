@@ -766,7 +766,7 @@ As próximas etapas estão relacionadas principalmente à evolução da camada d
 
 # Autor
 
-**Gabriel Draco**
+**Gabriel Silva**
 
 Projeto desenvolvido como estudo prático de:
 
