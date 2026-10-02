@@ -25,7 +25,7 @@ SCALE = json.loads(
 )
 
 app = FastAPI(
-    title="VTAL CCOR V2"
+    title="ControlOps"
 )
 
 

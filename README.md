@@ -1,337 +1,779 @@
-# VTAL CCOR V2
+# ControlOps
 
-> **Automação da conferência de assunções de serviço da operação VTAL.**
+> Plataforma de monitoramento e análise operacional desenvolvida em Python, com foco em processamento de dados, validação de escalas, identificação de divergências e geração de indicadores operacionais.
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)](https://github.com/gdracojj/VTAL-CHECK-LIST)
-[![Versão](https://img.shields.io/badge/vers%C3%A3o-2.0-blue)](https://github.com/gdracojj/VTAL-CHECK-LIST)
-[![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)](#-licen%C3%A7a)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Node.js](https://img.shields.io/badge/Node.js-Integration-brightgreen)
+![Data Engineering](https://img.shields.io/badge/focus-Data%20Engineering-purple)
 
-## 🚀 Sobre o Projeto
+---
 
-O **VTAL CCOR V2** foi desenvolvido para centralizar e automatizar a conferência de mensagens de **assunção de serviço** recebidas dos grupos operacionais do WhatsApp.
+## Sobre o projeto
 
-O problema operacional tratado é a necessidade de consultar diversos grupos, identificar quem assumiu o posto, comparar a informação recebida com a escala e localizar rapidamente atrasos, divergências e registros incompletos. A V2 organiza esse fluxo em um único sistema, separando a entrada das mensagens, o processamento dos dados e a apresentação dos resultados.
+O **ControlOps** é uma solução de monitoramento e análise operacional desenvolvida para processar registros de escalas, assunções de serviço e ocorrências operacionais.
 
-### Principais funcionalidades
+O sistema realiza a ingestão e o tratamento de dados, cruza informações de colaboradores, postos, escalas e regras operacionais e identifica situações como:
 
-- **Dashboard web** para visualização consolidada das assunções.
-- **Leitura e interpretação de mensagens** por meio do parser da aplicação.
-- **Identificação de posto, horário e informações do colaborador** a partir do texto recebido.
-- **Comparação aproximada de nomes** usando `RapidFuzz` e `token_set_ratio`.
-- **Comparação entre assunção recebida e escala cadastrada** em JSON.
-- **Classificação dos resultados** em categorias como `REGULAR`, `ADIANTADO`, `ATRASADO`, `SEM ASSUNÇÃO`, `DIVERGÊNCIA` e `IDENTIFICADA`.
-- **Pesquisa no dashboard** por posto, nome ou motivo.
-- **Filtros por status** diretamente no painel.
-- **Alternância de tema claro/escuro** com persistência no navegador.
-- **Exibição de horário de Brasília** no dashboard.
-- **Página de teste de mensagens** acessível pela rota `/teste`.
-- **Integração inicial com WhatsApp Web** usando `whatsapp-web.js`.
-- **Persistência local da sessão do WhatsApp** com `LocalAuth`.
-- **Captura de mensagens de grupos**, identificados pelo sufixo `@g.us`.
+- assunções regulares;
+- atrasos;
+- adiantamentos;
+- divergências de colaborador;
+- divergências de posto;
+- postos sem assunção;
+- registros incompletos.
 
-## 🛠️ Tecnologias e Arquitetura
+O projeto foi reconstruído de forma independente a partir de um problema operacional vivenciado profissionalmente.
 
-### Stack
+**Todos os dados utilizados no projeto são fictícios e sintéticos.**
 
-| Camada | Tecnologia |
-|---|---|
-| Backend | Python |
-| API / servidor web | FastAPI |
-| Servidor ASGI | Uvicorn |
-| Templates | Jinja2 |
-| Validação / modelos | Pydantic |
-| Matching de nomes | RapidFuzz |
-| Frontend | HTML, CSS e JavaScript |
-| Integração WhatsApp | Node.js + `whatsapp-web.js` |
-| QR Code | `qrcode-terminal` |
-| Versionamento | Git + GitHub |
+Nenhum dado real de colaboradores, empresas, clientes, postos ou operações é utilizado na versão atual.
 
-### Arquitetura
+---
 
-O projeto utiliza uma arquitetura separada em duas partes principais:
+## Objetivo
+
+O objetivo do ControlOps é demonstrar, na prática, como um problema operacional pode ser transformado em uma solução baseada em dados.
+
+O projeto combina conceitos de:
+
+- Data Engineering;
+- Data Analytics;
+- Python;
+- APIs REST;
+- processamento e normalização de dados;
+- regras de negócio;
+- matching de informações;
+- armazenamento estruturado;
+- dashboards operacionais;
+- automação.
+
+A proposta é construir um fluxo no qual dados operacionais brutos sejam transformados em informações estruturadas para apoiar o acompanhamento da operação.
+
+---
+
+## Contexto do problema
+
+Em uma operação com diferentes postos e colaboradores, uma parte relevante do controle operacional consiste em verificar se as informações recebidas correspondem ao que estava previsto na escala.
+
+Um registro pode apresentar, por exemplo:
 
 ```text
-                   ┌─────────────────────┐
-                   │      WhatsApp       │
-                   │   WhatsApp Web     │
-                   └──────────┬──────────┘
-                              │
-                              ▼
-                   ┌─────────────────────┐
-                   │  whatsapp/client.js │
-                   │   Node.js          │
-                   └──────────┬──────────┘
-                              │
-                              ▼
-                   ┌─────────────────────┐
-                   │     FastAPI V2      │
-                   │     app/main.py     │
-                   └──────────┬──────────┘
-                              │
-                  ┌───────────┼───────────┐
-                  ▼           ▼           ▼
-             ┌────────┐ ┌──────────┐ ┌──────────┐
-             │ parser │ │ matcher  │ │ storage  │
-             └────┬───┘ └────┬─────┘ └────┬─────┘
-                  │          │            │
-                  └──────────┼────────────┘
-                             ▼
-                      ┌─────────────┐
-                      │ escala.json │
-                      └──────┬──────┘
-                             │
-                             ▼
-                      ┌─────────────┐
-                      │  Dashboard  │
-                      └─────────────┘
+Orion Telecom
+Posto: OR-AC-OPS-001
+Data: 04/09/2026
+Assunção de serviço: Vitória Almeida assumindo
+Assumindo serviço 18h00 às 06h00
 ```
 
-### Estrutura de diretórios
+O sistema precisa interpretar essas informações e compará-las com os dados estruturados da operação.
+
+A partir desse cruzamento, é possível identificar se:
+
+- o posto existe;
+- o colaborador corresponde ao esperado;
+- o horário corresponde à escala;
+- a data está de acordo com a escala;
+- houve atraso ou adiantamento;
+- existe alguma divergência;
+- algum posto esperado não possui registro de assunção.
+
+---
+
+# Arquitetura
+
+A arquitetura atual segue uma separação entre ingestão, processamento, validação e apresentação:
 
 ```text
-vtal_ccor_v2/
+WhatsApp / Dados de entrada
+          │
+          ▼
+     Node.js
+   client.js
+          │
+          ▼
+      FastAPI
+      main.py
+          │
+          ▼
+       parser.py
+          │
+          ▼
+      matcher.py
+          │
+          ▼
+      storage.py
+          │
+          ▼
+      Dashboard
+```
+
+### Fluxo de processamento
+
+```text
+Dados brutos
+     ↓
+Ingestão
+     ↓
+Parsing
+     ↓
+Normalização
+     ↓
+Matching
+     ↓
+Regras de negócio
+     ↓
+Classificação
+     ↓
+Armazenamento
+     ↓
+API
+     ↓
+Dashboard
+```
+
+---
+
+# Componentes
+
+## Node.js
+
+O diretório `whatsapp/` contém a camada responsável pela integração com a fonte de mensagens.
+
+O cliente utiliza:
+
+- Node.js;
+- whatsapp-web.js;
+- QR Code para autenticação.
+
+Essa camada representa a etapa de ingestão dos dados.
+
+---
+
+## FastAPI
+
+O `app/main.py` funciona como ponto central da aplicação.
+
+Responsabilidades:
+
+- inicialização da API;
+- recebimento de mensagens;
+- processamento dos registros;
+- geração dos relatórios;
+- exposição dos endpoints;
+- integração com o dashboard.
+
+---
+
+## Parser
+
+O `app/parser.py` transforma mensagens não estruturadas em dados estruturados.
+
+Informações extraídas podem incluir:
+
+```text
+group
+raw
+post_raw
+incoming
+outgoing
+assumption_time
+date
+received_at
+```
+
+Por exemplo:
+
+```text
+Mensagem
+    ↓
+"Posto: OR-AC-OPS-001"
+"Vitória Almeida assumindo"
+"18h00 às 06h00"
+    ↓
+Dados estruturados
+```
+
+---
+
+## Matcher
+
+O `app/matcher.py` realiza o cruzamento entre os dados processados e a escala operacional.
+
+O componente considera:
+
+- posto;
+- colaborador;
+- horário;
+- data;
+- escala;
+- paridade do dia;
+- similaridade de nomes;
+- aliases de postos.
+
+A comparação utiliza similaridade textual para lidar com pequenas diferenças na forma como os nomes podem aparecer nas mensagens.
+
+---
+
+# Modelo de escala
+
+O projeto utiliza uma escala sintética para representar uma operação com colaboradores em turnos diurnos e noturnos.
+
+Cada posto possui colaboradores associados a diferentes ciclos:
+
+```text
+                 POSTO
+                   │
+          ┌────────┴────────┐
+          │                 │
+       DIURNO            NOTURNO
+          │                 │
+      06:00–18:00       18:00–06:00
+          │                 │
+     ┌────┴────┐       ┌────┴────┐
+   Pares     Ímpares  Pares     Ímpares
+```
+
+A alternância é representada pelo campo:
+
+```json
+"dias": "pares"
+```
+
+ou:
+
+```json
+"dias": "impares"
+```
+
+Dessa forma, o sistema consegue determinar qual colaborador deveria estar associado ao posto em determinada data.
+
+---
+
+# Classificação operacional
+
+O ControlOps trabalha com diferentes situações de operação.
+
+| Situação | Descrição |
+|---|---|
+| `REGULAR` | Colaborador, posto e horário correspondem ao esperado |
+| `ADIANTADO` | Assunção ocorreu antes do horário previsto |
+| `ATRASADO` | Assunção ocorreu depois do horário previsto |
+| `DIVERGÊNCIA` | Informações recebidas não correspondem à escala |
+| `SEM ASSUNÇÃO` | Posto esperado não possui registro identificado |
+| `POSTO_NAO_LOCALIZADO` | Posto não foi encontrado na escala |
+| `HORÁRIO NÃO IDENTIFICADO` | Não foi possível identificar o horário da mensagem |
+
+Exemplo:
+
+```text
+Escala:
+
+Posto: OR-AC-OPS-001
+Colaborador: Lucas Almeida
+Horário: 06:00
+
+Mensagem:
+
+Posto: OR-AC-OPS-001
+Colaborador: Lucas Almeida
+Horário: 06:30
+
+Resultado:
+
+ATRASADO 30 min
+```
+
+---
+
+# Dados sintéticos
+
+O projeto foi estruturado para trabalhar com dados fictícios.
+
+O contexto utilizado atualmente é:
+
+```text
+Empresa fictícia:
+Orion Telecom
+```
+
+Os colaboradores, postos, escalas e mensagens presentes no projeto são dados sintéticos.
+
+Isso permite demonstrar a arquitetura e as regras de negócio sem expor informações operacionais ou dados pessoais reais.
+
+---
+
+# Testes
+
+O projeto possui uma estrutura para geração de mensagens sintéticas e testes do parser.
+
+O gerador localizado em:
+
+```text
+tests/generate_messages.py
+```
+
+cria mensagens com diferentes situações:
+
+```text
+correta
+horario
+nome
+posto
+inexistente
+incompleta
+```
+
+Exemplo:
+
+```text
+Status: correta
+
+Orion Telecom
+Posto: OR-AC-OPS-001
+Data: 04/09/2026
+Assunção de serviço: Vitória Almeida assumindo
+Assumindo serviço 18h00 às 06h00
+```
+
+Também são gerados casos propositalmente inconsistentes para validar o comportamento do sistema.
+
+---
+
+## Executando os testes
+
+Para gerar as mensagens sintéticas:
+
+```bash
+python tests/generate_messages.py
+```
+
+Para executar o teste do parser:
+
+```bash
+python tests/test_parser.py
+```
+
+Os resultados são armazenados em:
+
+```text
+data/test_messages_1000.json
+data/parser_failures.json
+```
+
+---
+
+# API
+
+A aplicação utiliza FastAPI para disponibilizar os dados processados.
+
+## Dashboard
+
+```http
+GET /
+```
+
+Retorna o dashboard principal da aplicação.
+
+---
+
+## Relatório operacional
+
+```http
+GET /api/report?plantao=diurno_a
+```
+
+Exemplo de resposta:
+
+```json
+{
+  "ok": true,
+  "plantao": "diurno_a",
+  "total_roster": 15,
+  "identified_total": 12,
+  "counts": {
+    "REGULAR": 8,
+    "ADIANTADO": 1,
+    "ATRASADO": 2,
+    "SEM ASSUNÇÃO": 3,
+    "DIVERGÊNCIA": 1,
+    "IDENTIFICADA": 12
+  },
+  "results": []
+}
+```
+
+---
+
+## Mensagens
+
+```http
+GET /api/messages
+```
+
+Retorna os registros armazenados.
+
+---
+
+## Adicionar mensagem
+
+```http
+POST /api/messages
+```
+
+Exemplo:
+
+```json
+{
+  "group": "OR-AC-OPS-001",
+  "message": "Orion Telecom...",
+  "received_at": "2026-09-04T06:00:00"
+}
+```
+
+---
+
+## Atualizar relatório
+
+```http
+POST /api/refresh
+```
+
+Atualiza o processamento dos dados.
+
+---
+
+## Limpar mensagens
+
+```http
+POST /api/clear
+```
+
+Remove os registros armazenados para permitir novos testes.
+
+---
+
+# Dashboard
+
+O projeto possui um dashboard operacional desenvolvido para facilitar a visualização dos resultados.
+
+O dashboard apresenta informações como:
+
+- quantidade de postos;
+- assunções identificadas;
+- assunções regulares;
+- atrasos;
+- adiantamentos;
+- divergências;
+- postos sem assunção;
+- busca e filtros;
+- detalhes das ocorrências;
+- seleção de plantão;
+- atualização dos dados.
+
+A interface foi construída com foco em visualização operacional e tomada de decisão baseada nos dados processados.
+
+---
+
+# Estrutura do projeto
+
+```text
+ControlOps/
+│
 ├── app/
-│   ├── __init__.py
 │   ├── main.py
-│   ├── matcher.py
 │   ├── parser.py
+│   ├── matcher.py
+│   ├── compare.py
 │   ├── storage.py
 │   ├── dashboard.html
-│   ├── static/
-│   └── templates/
-│       └── dashboard.html
+│   │
+│   ├── templates/
+│   │   └── dashboard.html
+│   │
+│   └── static/
 │
 ├── data/
-│   └── escala.json
+│   ├── escala.json
+│   ├── aliases.json
+│   └── messages.json
 │
 ├── tests/
+│   ├── test_parser.py
+│   └── generate_messages.py
 │
 ├── whatsapp/
 │   └── client.js
 │
-├── converter_escala.py
-├── requirements.txt
 ├── package.json
-├── package-lock.json
-├── README.md
-├── README_INTEGRACAO.md
-└── .gitignore
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
-> `node_modules/`, `.wwebjs_auth/` e `.wwebjs_cache/` são diretórios locais e não devem ser versionados no Git.
+---
 
-## ⚙️ Configuração e Instalação
+# Tecnologias
 
-### Pré-requisitos
+## Backend
 
-- **Python 3.x** com `pip`.
-- **Node.js** instalado no sistema.
-- **npm** para instalação das dependências JavaScript.
-- **Git**.
-- Uma conta de WhatsApp capaz de utilizar o WhatsApp Web para a integração via `whatsapp-web.js`.
+- Python
+- FastAPI
+- Pydantic
 
-### 1. Clonar o repositório
+## Processamento de dados
 
-```bash
-git clone https://github.com/gdracojj/VTAL-CHECK-LIST.git
-cd VTAL-CHECK-LIST
-```
+- JSON
+- Python
+- RapidFuzz
+- regras de negócio
+- normalização de dados
+- matching textual
 
-### 2. Criar e ativar o ambiente virtual Python
+## Integração
 
-Windows PowerShell:
+- Node.js
+- whatsapp-web.js
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
+## Frontend
 
-Windows CMD:
+- HTML
+- CSS
+- JavaScript
 
-```cmd
-python -m venv .venv
-.venv\Scripts\activate
-```
+## Ferramentas
 
-### 3. Instalar dependências Python
+- Git
+- GitHub
+- Linux
+- Fedora
 
-```bash
-pip install -r requirements.txt
-```
+---
 
-### 4. Instalar dependências do WhatsApp
+# Data Engineering
 
-```bash
-npm install
-```
+O ControlOps também funciona como um projeto prático de Data Engineering.
 
-Caso o PowerShell bloqueie `npm.ps1`, utilize:
-
-```powershell
-npm.cmd install
-```
-
-### 5. Iniciar o backend
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Após a inicialização, o painel fica disponível normalmente em:
+O fluxo possui características comuns de um pipeline de dados:
 
 ```text
-http://127.0.0.1:8000
+INGESTÃO
+   ↓
+DADOS BRUTOS
+   ↓
+EXTRAÇÃO
+   ↓
+TRANSFORMAÇÃO
+   ↓
+NORMALIZAÇÃO
+   ↓
+VALIDAÇÃO
+   ↓
+MATCHING
+   ↓
+DADOS ESTRUTURADOS
+   ↓
+ANALYTICS
+   ↓
+DASHBOARD
 ```
 
-### 6. Iniciar o cliente WhatsApp
+Entre os conceitos aplicados estão:
 
-Em outro terminal:
+- ingestão de dados;
+- processamento de dados não estruturados;
+- transformação;
+- normalização;
+- validação;
+- enriquecimento;
+- matching;
+- regras de negócio;
+- armazenamento;
+- APIs;
+- geração de indicadores.
 
-```bash
-node whatsapp/client.js
-```
+---
 
-No primeiro uso, o cliente exibe um **QR Code** no terminal. O código deve ser escaneado pelo WhatsApp em **Dispositivos conectados**.
+# Evolução planejada
 
-Depois da autenticação, a sessão local é mantida pelo `LocalAuth`.
+O projeto foi estruturado para permitir evolução gradual.
 
-### Variáveis de ambiente
+## Fase 1 — Base
 
-Não foi identificado, no material do projeto disponível para esta documentação, um arquivo `.env` ou um conjunto de variáveis de ambiente obrigatório para a execução básica.
+- [x] Estrutura do projeto
+- [x] Parser de mensagens
+- [x] Escala sintética
+- [x] Matching de colaboradores
+- [x] Regras de horário
+- [x] API FastAPI
+- [x] Dashboard
+- [x] Testes sintéticos
 
-As configurações observadas são feitas diretamente nos arquivos da aplicação, incluindo o `client.js` para a autenticação local do WhatsApp.
+## Fase 2 — Dados
 
-## 📦 Como Usar
+- [ ] Migração do armazenamento JSON para PostgreSQL
+- [ ] Modelagem das tabelas
+- [ ] Histórico de eventos
+- [ ] Logs de processamento
+- [ ] Queries analíticas
 
-### Acesso ao dashboard
+## Fase 3 — Data Engineering
 
-Com o FastAPI em execução, abra:
+- [ ] Pipeline de ingestão estruturado
+- [ ] ETL/ELT
+- [ ] processamento incremental
+- [ ] tratamento de dados históricos
+- [ ] validação automatizada
+- [ ] monitoramento do pipeline
+
+## Fase 4 — Analytics
+
+- [ ] KPIs operacionais
+- [ ] histórico de atrasos
+- [ ] indicadores por posto
+- [ ] indicadores por colaborador
+- [ ] análise temporal
+- [ ] dashboards analíticos
+
+## Fase 5 — Inteligência
+
+- [ ] detecção de padrões
+- [ ] identificação de anomalias
+- [ ] classificação automatizada
+- [ ] modelos preditivos
+- [ ] recursos de IA para apoio operacional
+
+---
+
+# Decisões de arquitetura
+
+Uma das decisões do projeto é separar as responsabilidades entre componentes.
+
+Por exemplo:
 
 ```text
-http://127.0.0.1:8000/
+parser.py
 ```
 
-O dashboard apresenta um resumo dos resultados e uma tabela com:
-
-- status;
-- posto;
-- colaborador esperado;
-- informação recebida;
-- horário real;
-- horário previsto;
-- motivo da classificação.
-
-O painel também permite:
-
-- filtrar por status;
-- pesquisar por texto;
-- limpar os filtros;
-- alternar o tema visual;
-- abrir a página de testes.
-
-### Página de testes
-
-A interface disponibiliza a rota:
+é responsável pela interpretação da mensagem.
 
 ```text
-http://127.0.0.1:8000/teste
+matcher.py
 ```
 
-Ela é acessível pelo botão **Testar mensagens** presente no dashboard.
-
-### Consulta da API
-
-A aplicação expõe o endpoint:
+é responsável pelo cruzamento com a escala.
 
 ```text
-/api/messages
+storage.py
 ```
 
-Exemplo de consulta:
-
-```bash
-curl http://127.0.0.1:8000/api/messages
-```
-
-> A interface e o backend são responsáveis pela interpretação das mensagens; o cliente WhatsApp deve funcionar como camada de entrada.
-
-### Fluxo principal de uma assunção
+é responsável pelo armazenamento.
 
 ```text
-Mensagem de grupo
-        ↓
-whatsapp/client.js
-        ↓
-Recepção da mensagem
-        ↓
-Parser
-        ↓
-Extração de dados
-        ↓
-Matcher
-        ↓
-Comparação com data/horário/posto/nome esperado
-        ↓
-Classificação
-        ↓
-Storage
-        ↓
-Dashboard
+main.py
 ```
 
-### Escala
+é responsável pela API e pela orquestração da aplicação.
 
-A referência operacional utilizada pelo sistema fica em:
+Essa separação facilita a manutenção, os testes e a evolução da aplicação.
 
-```text
-data/escala.json
-```
+---
 
-O arquivo contém os registros estruturados utilizados pelo matcher para identificar o colaborador/posto esperado.
+# Aprendizados
 
-O utilitário:
+O desenvolvimento do ControlOps envolve problemas comuns em projetos reais de dados:
 
-```text
-converter_escala.py
-```
+- dados não estruturados;
+- inconsistência de nomes;
+- diferentes formatos de horário;
+- dados incompletos;
+- identificação de entidades;
+- regras de negócio;
+- validação de dados;
+- integração entre sistemas;
+- transformação de dados;
+- necessidade de rastreabilidade.
 
-é utilizado no fluxo de conversão da escala para um formato estruturado compatível com a aplicação.
+Mais do que simplesmente construir uma aplicação, o projeto busca demonstrar o processo de transformar um problema operacional em um pipeline de dados estruturado.
 
-### Matching de nomes
+---
 
-A comparação aproximada utiliza `RapidFuzz` com `token_set_ratio`, permitindo tolerar diferenças de escrita entre a mensagem e o cadastro da escala.
+# Privacidade e dados
 
-## 🧪 Testes
+O ControlOps utiliza exclusivamente dados fictícios e sintéticos na versão publicada neste repositório.
 
-O repositório possui um diretório dedicado:
+O projeto não deve conter:
 
-```text
-tests/
-```
+- nomes reais de colaboradores;
+- números de telefone;
+- mensagens reais;
+- informações de clientes;
+- credenciais;
+- dados operacionais confidenciais;
+- arquivos proprietários.
 
-Além disso, durante o desenvolvimento foi utilizado um conjunto sintético de **1.000 mensagens** para validar a lógica de identificação e classificação.
+Qualquer dado utilizado para demonstração deve ser criado especificamente para o projeto.
 
-Resultado registrado desse conjunto de validação:
+---
 
-```text
-Esperados: 44
-Identificados: 44
-Pendentes: 0
+# Princípios do projeto
 
-TOTAL: 1000
-REGULARES: 431
-ATRASOS: 110
-DIVERGÊNCIA DE NOME: 221
-POSTO NÃO LOCALIZADO: 124
-INCOMPLETAS: 114
-```
+O desenvolvimento do ControlOps segue alguns princípios:
 
-Esses números são referentes ao conjunto sintético de desenvolvimento e não representam indicadores da operação real.
+### Separação de responsabilidades
 
-> O conteúdo atual disponível para análise não permitiu confirmar um comando único e oficial de execução da suíte localizada em `tests/`. Por isso, este README não inventa um comando como `pytest` sem confirmar a configuração do repositório.
+Cada componente deve possuir uma responsabilidade clara.
 
-## 📄 Licença
+### Dados antes da interface
 
-Este projeto utiliza a licença **MIT** para fins de documentação do repositório, conforme orientação de documentação quando não há um arquivo de licença específico confirmado.
+O dashboard é uma camada de apresentação dos dados processados, não o núcleo da aplicação.
 
-Consulte o arquivo `LICENSE` do repositório caso uma licença formal seja adicionada posteriormente.
+### Regras explícitas
+
+As regras operacionais devem ser implementadas de forma clara e testável.
+
+### Dados sintéticos
+
+O projeto deve permanecer independente de informações proprietárias.
+
+### Evolução incremental
+
+A arquitetura deve permitir a evolução de armazenamento local para bancos de dados e pipelines mais robustos.
+
+---
+
+# Status
+
+**Em desenvolvimento.**
+
+O núcleo do projeto já contempla:
+
+- ingestão;
+- parsing;
+- normalização;
+- matching;
+- regras de escala;
+- API;
+- armazenamento;
+- dashboard;
+- geração de dados sintéticos;
+- testes automatizados do parser.
+
+As próximas etapas estão relacionadas principalmente à evolução da camada de dados, persistência em PostgreSQL, construção de pipelines e expansão dos recursos analíticos.
+
+---
+
+# Autor
+
+**Gabriel Draco**
+
+Projeto desenvolvido como estudo prático de:
+
+**Data Engineering · Data Analytics · Python · APIs · Automação · IA**
+
+---
+
+## Licença
+
+Este projeto é destinado a fins educacionais e de portfólio.

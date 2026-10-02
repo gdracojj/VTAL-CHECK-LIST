@@ -1,7 +1,7 @@
 [
   {
-    "employee": "VAUCELIO LEVE TORREJOM",
-    "post": "AC-RBO-RBCE",
+    "employee": "Lucas Almeida",
+    "post": "OR-AC-OPS-001",
     "state": "AC",
     "expected_time": "06:00",
     "plantao": "diurno_a",
@@ -9,800 +9,8 @@
     "active": true
   },
   {
-    "employee": "ELISON NUNES DOS SANTOS",
-    "post": "AM-MNS-CE",
-    "state": "AM",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "SIRLANDO SILVA",
-    "post": "AM-MNS-PA",
-    "state": "AM",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "SAMUEL SANTOS DE CARVALHO",
-    "post": "BA-ITB-ITB",
-    "state": "BA",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "TAYANNE TOLSTOI DE SOUTO MEDEIROS",
-    "post": "PB-JPA-EPS",
-    "state": "PB",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ADELIA VIRGINIA DO NASCIMENTO",
-    "post": "PB-JPA-VPT",
-    "state": "PB",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ALDECI PEREIRA DA SILVA JUNIOR",
-    "post": "RN-NTL-ALM",
-    "state": "RN",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MÁRCIO JOSÉ CUTRIM LIMA",
-    "post": "MA-SIS-SIS",
-    "state": "MA",
-    "expected_time": "06:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "THAISI VIVIAN DOS SANTOS SILVA",
-    "post": "AL-MCO-FA",
-    "state": "AL",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "VALMIRAN PIRES DA SILVA",
-    "post": "AL-MCO-JT",
-    "state": "AL",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ROBERTO HENRIQUE MACIEL PONTES",
-    "post": "AP-MPA-CTO",
-    "state": "AP",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "GILVAN CERQUEIRO DOS SANTOS",
-    "post": "BA-FSA-GOVS",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ANTÔNIO CARLOS BORGES DA SILVA",
-    "post": "BA-SDR-ROMA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLAUDIANA LIMA DOS SANTOS",
-    "post": "BA-SDR-BDEA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "PATRICIA MARTINEZ",
-    "post": "BA-SDR-CPIS",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "GILDASIO PEREIRA DE ASSUNÇÃO",
-    "post": "BA-SDR-BRRR",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "LUIS GUSTAVO SANTOS RANGEL DA SILVA",
-    "post": "BA-SDR-IGAW",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MARLENE COSTA DE OLIVEIRA",
-    "post": "BA-SDR-POLA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ALYSON JAVÉ TRANCOSO DOS SANTOS GOMES",
-    "post": "BA-VCA-VCA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ VANDEIR DA SILVA CUNHA",
-    "post": "CE-FLA-ALD",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "RAYANE DA SILVA MARCOS",
-    "post": "CE-FLA-CEN",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSELIAS SOUSA OLIVEIRA",
-    "post": "CE-FLA-GNET",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "LEONARDO BARROS VIANA",
-    "post": "CE-FLA-MGAL",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ADRIANA GOMES ALTINO",
-    "post": "CE-FLA-PRN",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ CLAUDERLY ALVES RODRIGUES",
-    "post": "CE-IAU-IAU",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "THAUAN SOUSA CARDOSO",
-    "post": "MA-ACD-ACD",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "BRUNO DE SANTANA SILVA",
-    "post": "MA-ITZ-ITZ",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "TARCISO MENDES DA LUZ",
-    "post": "MA-SLS-ANL",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CARLOS CELSO",
-    "post": "MA-SLZ-VHS",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "FRANCICLOVES CUTRIM COSTA",
-    "post": "MA-SLS-CTO",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ANA PRISCILA SILVA MORAES",
-    "post": "PA-BLM-CTO",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MAIK BRUNO DA COSTA SOUSA",
-    "post": "PA-GOPA-GOP",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "RAFAEL COSTA DA CRUZ",
-    "post": "PA-MBA-NBA",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MOACIR OLIVEIRA",
-    "post": "PA-BLM-MIA",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CHAYENI MARIA SANTOS DE OLIVEIRA",
-    "post": "PE-RCE-EBVG",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSE RICARDO GOMES ACIOLE DA SILVA",
-    "post": "PE-RCE-EBVT",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLEUBER MARTINS DE SÁ FILHO",
-    "post": "PE-SGI-ESGI",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLAUDIO ROBERTO DA SILVA RODRIGUES",
-    "post": "PI-TSA-CTOP",
-    "state": "PI",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "DAVID DE LIMA FERNANDES",
-    "post": "PI-TSA-JKY",
-    "state": "PI",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CASSIO DA SILVA FONSECA",
-    "post": "RN-NTL-CTO",
-    "state": "RN",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "SILMARA",
-    "post": "RO-PVO-EDPO",
-    "state": "RO",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLEIDIANE CALIMAN MARIANO",
-    "post": "RO-JIP-EJIP",
-    "state": "RO",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "DAIANA NÚBIA BARRETO DOS SANTOS",
-    "post": "RR-BVA-CE",
-    "state": "RR",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOÃO EVANGELISTA RODRIGUES SANTOS",
-    "post": "SE-AJU-AJU",
-    "state": "SE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ GUSTAVO MORAIS SANTOS",
-    "post": "SE-AJU-GGU",
-    "state": "SE",
-    "expected_time": "07:00",
-    "plantao": "diurno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MILENE DE LIMA DE SOUZA",
-    "post": "AC-RBO-RBCE",
-    "state": "AC",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ADALTO TAVARES DUVAL",
-    "post": "AM-MNS-CE",
-    "state": "AM",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MIQUERLAN CARVALHO TAPODIMA",
-    "post": "AM-MNS-PA",
-    "state": "AM",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "PEDRO AELTON LOPES DA PAIXÃO",
-    "post": "BA-ITB-ITB",
-    "state": "BA",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MÁRCIO JOSÉ CUTRIM LIMA",
-    "post": "MA-SIS-SIS",
-    "state": "MA",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "LILIANE DE CASTRO RIMÁ",
-    "post": "PB-JPA-EPS",
-    "state": "PB",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ FABIANO PEDROSA",
-    "post": "PB-JPA-VPT",
-    "state": "PB",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ROSANGELA SANTOS DA SILVA",
-    "post": "RN-NTL-ALM",
-    "state": "RN",
-    "expected_time": "06:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MAITE LIVIA CONCEIÇAO SANTOS",
-    "post": "AL-MCO-FA",
-    "state": "AL",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "VITOR SAMUEL VITURINO DOS SANTOS",
-    "post": "AL-MCO-JT",
-    "state": "AL",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ÁUREO FABIO DA SILVA",
-    "post": "AM-MNS-DC",
-    "state": "AM",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "AJAX FERREIRA MACIEL",
-    "post": "AP-MPA-CTO",
-    "state": "AP",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ROBERT FERREIRA",
-    "post": "BA-SDR-CPIS",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOILSON PEREIRA OLIVEIRA",
-    "post": "BA-FSA-GOVS",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JEFFERSON SANTOS DA SILVA",
-    "post": "BA-SDR-BDEA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "CÉZAR SANTOS CERQUEIRA",
-    "post": "BA-SDR-BRRR",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MIGUEL ARAÚJO",
-    "post": "BA-SDR-ROMA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ALEXANDRO DOS SANTOS FREIRE",
-    "post": "BA-SDR-IGAW",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MARLENE COSTA DE OLIVEIRA",
-    "post": "BA-SDR-POLA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "GEORGE DE OLIVEIRA BASTOS",
-    "post": "BA-VCA-VCA",
-    "state": "BA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "FRANCISCO ISMAEL SOUZA SILVA",
-    "post": "CE-FLA-ALD",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "IVANILDO DE SOUSA SILVINO",
-    "post": "CE-FLA-CEN",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANTONIO AUGUSTO RODRIGUES BARROS",
-    "post": "CE-FLA-GNET",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ LEANDRO DELMIRO DO NASCIMENTO",
-    "post": "CE-FLA-MGAL",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOAO MARCOS ALVES VIEIRA",
-    "post": "CE-IAU-IAU",
-    "state": "CE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANTÔNIO MARCOS SANTOS DA CRUZ",
-    "post": "MA-ACD-ACD",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "WANDERSON CARDOSO",
-    "post": "MA-ITZ-ITZ",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "DANÚBIA LÍDIA PEREIRA ESTRELA LOBATO",
-    "post": "MA-SLS-ANL",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "IGOR ERICK MOURA BEZERRA",
-    "post": "MA-SLS-CTO",
-    "state": "MA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANA PAULA NOGUEIRA DA SILVA TRINDADE",
-    "post": "PA-BLM-CTO",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "LEANDRO ALAN DA SILVA DUARTE",
-    "post": "PA-BLM-MIA",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "HUGO DOS SANTOS NERIS",
-    "post": "PA-GOPA-GOP",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MACIEL PEREIRA DA SILVA",
-    "post": "PA-MBA-NBA",
-    "state": "PA",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANDREA ALVES DA SILVA",
-    "post": "PE-RCE-EBVG",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "LUCAS DE CARVALHO SILVA",
-    "post": "PE-RCE-EBVT",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "GABRIEL DE LIRA FRANÇA FREIRE",
-    "post": "PE-SGI-ESGI",
-    "state": "PE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANTONIO FRANCSICO",
-    "post": "PI-TSA-CTOP",
-    "state": "PI",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MARCOS ASSUNÇÃO ARAGÃO MARQUES",
-    "post": "PI-TSA-JKY",
-    "state": "PI",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JEFFERSON DE OLIVEIRA PINHEIRO",
-    "post": "RN-NTL-CTO",
-    "state": "RN",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "GILVAN EDMILSON CABRAL MONTEIRO",
-    "post": "RO-PVO-EDPO",
-    "state": "RO",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ALEXANDER HENRIQUE",
-    "post": "RO-JIP-EJIP",
-    "state": "RO",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "EDVALDO FERREIRA DA SILVA JUNIOR",
-    "post": "RR-BVA-CE",
-    "state": "RR",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "MARIA ISABEL SILVA DE OLIVEIRA",
-    "post": "SE-AJU-GGU",
-    "state": "SE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOÃO EVANGELISTA",
-    "post": "SE-AJU-AJU",
-    "state": "SE",
-    "expected_time": "07:00",
-    "plantao": "diurno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "VAUCELIO LEVE TORREJOM",
-    "post": "AC-RBO-RBCE",
+    "employee": "Vitória Almeida",
+    "post": "OR-AC-OPS-001",
     "state": "AC",
     "expected_time": "18:00",
     "plantao": "noturno_a",
@@ -810,368 +18,17 @@
     "active": true
   },
   {
-    "employee": "ELISON NUNES DOS SANTOS",
-    "post": "AM-MNS-CE",
-    "state": "AM",
-    "expected_time": "18:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
+    "employee": "Joana Barbosa",
+    "post": "OR-AC-OPS-001",
+    "state": "AC",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
     "active": true
   },
   {
-    "employee": "SAMUEL SANTOS DE CARVALHO",
-    "post": "BA-ITB-ITB",
-    "state": "BA",
-    "expected_time": "18:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "TAYANNE TOLSTOI DE SOUTO MEDEIROS",
-    "post": "PB-JPA-EPS",
-    "state": "PB",
-    "expected_time": "18:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ADELIA VIRGINIA DO NASCIMENTO",
-    "post": "PB-JPA-VPT",
-    "state": "PB",
-    "expected_time": "18:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ALDECI PEREIRA DA SILVA JUNIOR",
-    "post": "RN-NTL-ALM",
-    "state": "RN",
-    "expected_time": "18:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "THAISI VIVIAN DOS SANTOS SILVA",
-    "post": "AL-MCO-FA",
-    "state": "AL",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "VALMIRAN PIRES DA SILVA",
-    "post": "AL-MCO-JT",
-    "state": "AL",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "SIRLANDO SILVA DOS SANTOS",
-    "post": "AM-MNS-PA",
-    "state": "AM",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ROBERTO HENRIQUE MACIEL PONTES",
-    "post": "AP-MPA-CTO",
-    "state": "AP",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "GILVAN CERQUEIRO DOS SANTOS",
-    "post": "BA-FSA-GOVS",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "RYAN GUSTAVO",
-    "post": "BA-SDR-CPIS",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLAUDIANA LIMA DOS SANTOS",
-    "post": "BA-SDR-BDEA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "GILDASIO PEREIRA DE ASSUNÇÃO",
-    "post": "BA-SDR-BRRR",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "LUIS GUSTAVO",
-    "post": "BA-SDR-IGAW",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ANTONIO CARLOS BORGES",
-    "post": "BA-SDR-ROMA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ALYSON JAVÉ TRANCOSO DOS SANTOS GOMES",
-    "post": "BA-VCA-VCA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ VANDEIR DA SILVA CUNHA",
-    "post": "CE-FLA-ALD",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "RAYANE DA SILVA MARCOS",
-    "post": "CE-FLA-CEN",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSELIAS SOUSA OLIVEIRA",
-    "post": "CE-FLA-GNET",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "LEONARDO BARROS VIANA",
-    "post": "CE-FLA-MGAL",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ CLAUDERLY ALVES RODRIGUES",
-    "post": "CE-IAU-IAU",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "THAUAN SOUSA CARDOSO",
-    "post": "MA-ACD-ACD",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "BRUNO DE SANTANA SILVA",
-    "post": "MA-ITZ-ITZ",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "TARCISO MENDES DA LUZ",
-    "post": "MA-SLS-ANL",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "FRANCICLOVES CUTRIM COSTA",
-    "post": "MA-SLS-CTO",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "ANA PRISCILA SILVA MORAES",
-    "post": "PA-BLM-CTO",
-    "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MOACIR DE OLIVEIRA",
-    "post": "PA-BLM-MIA",
-    "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "MAIK BRUNO DA COSTA",
-    "post": "PA-GOPA-GOP",
-    "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "RAFAEL COSTA DA CRUZ",
-    "post": "PA-MBA-NBA",
-    "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CHAYENI MARIA SANTOS DE OLIVEIRA",
-    "post": "PE-RCE-EBVG",
-    "state": "PE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSE RICARDO GOMES ACIOLE DA SILVA",
-    "post": "PE-RCE-EBVT",
-    "state": "PE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLEUBER MARTINS DE SÁ FILHO",
-    "post": "PE-SGI-ESGI",
-    "state": "PE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLAUDIO ROBERTO DA SILVA RODRIGUES",
-    "post": "PI-TSA-CTOP",
-    "state": "PI",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "DAVID DE LIMA FERNANDES",
-    "post": "PI-TSA-JKY",
-    "state": "PI",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CÁSSIO SILVA",
-    "post": "RN-NTL-CTO",
-    "state": "RN",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "OCICLEIDE FERREIRA BRITO",
-    "post": "RO-PVO-EDPO",
-    "state": "RO",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "CLEIDIANE CALIMAN MARIANO",
-    "post": "RO-JIP-EJIP",
-    "state": "RO",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "KEILA DE SOUZA FEIJÓ",
-    "post": "RR-BVA-CE",
-    "state": "RR",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOÃO EVANGELISTA RODRIGUES SANTOS",
-    "post": "SE-AJU-AJU",
-    "state": "SE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "JOSÉ GUSTAVO MORAIS DOS SANTOS",
-    "post": "SE-AJU-GGU",
-    "state": "SE",
-    "expected_time": "19:00",
-    "plantao": "noturno_a",
-    "dias": "pares",
-    "active": true
-  },
-  {
-    "employee": "LEONARDO FERREIRA DE ARAÚJO",
-    "post": "AC-RBO-RBCE",
+    "employee": "Marcos Almeida",
+    "post": "OR-AC-OPS-001",
     "state": "AC",
     "expected_time": "18:00",
     "plantao": "noturno_b",
@@ -1179,8 +36,35 @@
     "active": true
   },
   {
-    "employee": "ARALDO ARAÚJO BITENCOURT",
-    "post": "AM-MNS-PA",
+    "employee": "Mariana Costa",
+    "post": "OR-AM-OPS-001",
+    "state": "AM",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Elaine Carvalho",
+    "post": "OR-AM-OPS-001",
+    "state": "AM",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Ricardo Tavares",
+    "post": "OR-AM-OPS-001",
+    "state": "AM",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Renato Vieira",
+    "post": "OR-AM-OPS-001",
     "state": "AM",
     "expected_time": "18:00",
     "plantao": "noturno_b",
@@ -1188,17 +72,35 @@
     "active": true
   },
   {
-    "employee": "ANTÔNIO MARCOS FERREIRA GUIMARÃES",
-    "post": "AM-MNS-CE",
-    "state": "AM",
+    "employee": "Camila Oliveira",
+    "post": "OR-BA-OPS-001",
+    "state": "BA",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Beatriz Santos",
+    "post": "OR-BA-OPS-001",
+    "state": "BA",
     "expected_time": "18:00",
-    "plantao": "noturno_b",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Marcelo Cunha",
+    "post": "OR-BA-OPS-001",
+    "state": "BA",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "REGINALDO SANTOS BARBOSA",
-    "post": "BA-ITB-ITB",
+    "employee": "Cristiano Mendes",
+    "post": "OR-BA-OPS-001",
     "state": "BA",
     "expected_time": "18:00",
     "plantao": "noturno_b",
@@ -1206,8 +108,35 @@
     "active": true
   },
   {
-    "employee": "PAULO ROBERTO SOARES DE OLIVEIRA",
-    "post": "PB-JPA-EPS",
+    "employee": "Bruno Ferreira",
+    "post": "OR-PB-OPS-001",
+    "state": "PB",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Juliana Rocha",
+    "post": "OR-PB-OPS-001",
+    "state": "PB",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Elisa Moreira",
+    "post": "OR-PB-OPS-001",
+    "state": "PB",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Ana Clara Oliveira",
+    "post": "OR-PB-OPS-001",
     "state": "PB",
     "expected_time": "18:00",
     "plantao": "noturno_b",
@@ -1215,17 +144,35 @@
     "active": true
   },
   {
-    "employee": "DAVID PESSOA DO NASCIMENTO",
-    "post": "PB-JPA-VPT",
-    "state": "PB",
+    "employee": "Thiago Nascimento",
+    "post": "OR-RN-OPS-001",
+    "state": "RN",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Nicole Santos",
+    "post": "OR-RN-OPS-001",
+    "state": "RN",
     "expected_time": "18:00",
-    "plantao": "noturno_b",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Priscila Dias",
+    "post": "OR-RN-OPS-001",
+    "state": "RN",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "JEFFERSON MATEUS PEREIRA DA SILVA",
-    "post": "RN-NTL-ALM",
+    "employee": "Melissa Costa",
+    "post": "OR-RN-OPS-001",
     "state": "RN",
     "expected_time": "18:00",
     "plantao": "noturno_b",
@@ -1233,361 +180,361 @@
     "active": true
   },
   {
-    "employee": "ROGERIO DA SILVA FAGUNDES",
-    "post": "AL-MCO-FA",
+    "employee": "Larissa Mendes",
+    "post": "OR-MA-OPS-001",
+    "state": "MA",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Aline Souza",
+    "post": "OR-MA-OPS-001",
+    "state": "MA",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Vitor Hugo Costa",
+    "post": "OR-MA-OPS-001",
+    "state": "MA",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Tomás Oliveira",
+    "post": "OR-MA-OPS-001",
+    "state": "MA",
+    "expected_time": "18:00",
+    "plantao": "noturno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Felipe Carvalho",
+    "post": "OR-AL-OPS-001",
     "state": "AL",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "JOSE COSTA DA SILVA",
-    "post": "AL-MCO-JT",
+    "employee": "Amanda Ribeiro",
+    "post": "OR-AL-OPS-001",
     "state": "AL",
-    "expected_time": "19:00",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Alexandre Moura",
+    "post": "OR-AL-OPS-001",
+    "state": "AL",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Davi Martins",
+    "post": "OR-AL-OPS-001",
+    "state": "AL",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "MARIA DA CONCEIÇÃO DE SOUZA MOLDES (VTAL 01/01)",
-    "post": "AM-MNS-CN",
-    "state": "AM",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOEL CARRIL (VTAL 01/01)",
-    "post": "AM-MNS-DC",
-    "state": "AM",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "GLEIDSON DOS SANTOS LOPES",
-    "post": "AP-MPA-CTO",
+    "employee": "Gustavo Barbosa",
+    "post": "OR-AP-OPS-001",
     "state": "AP",
-    "expected_time": "19:00",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Débora Alves",
+    "post": "OR-AP-OPS-001",
+    "state": "AP",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Márcio Ribeiro",
+    "post": "OR-AP-OPS-001",
+    "state": "AP",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Fernanda Almeida",
+    "post": "OR-AP-OPS-001",
+    "state": "AP",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "JULIANA DOS SANTOS E SANTOS",
-    "post": "BA-SDR-BDEA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "RYAN GUSTAVO",
-    "post": "BA-SDR-BRRR",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOILSON PEREIRA",
-    "post": "BA-FSA-GOVS",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "PEDRO VITOR DA CONCEIÇÃO ROCHA",
-    "post": "BA-SDR-CPIS",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "GABRIEL SILVA RAMOS",
-    "post": "BA-SDR-IGAW",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "CLAUDIO JESUS DOS SANTOS (VTAL 01/01)",
-    "post": "BA-SDR-ROMA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "JOÃO CARLOS SILVA MACIEL",
-    "post": "BA-VCA-VCA",
-    "state": "BA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "WALNEI RÊGO DE MENEZES",
-    "post": "CE-FLA-ALD",
+    "employee": "Bianca Araújo",
+    "post": "OR-CE-OPS-001",
     "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "FRANCISCO DA SILVA",
-    "post": "CE-FLA-CEN",
+    "employee": "Diego Moreira",
+    "post": "OR-CE-OPS-001",
     "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "FRANCISCO GERLANO MACIEL DE SOUZA",
-    "post": "CE-FLA-GNET",
+    "employee": "Vanessa Lima",
+    "post": "OR-CE-OPS-001",
     "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "HUMBERTO ORIANO RODRIGUES (VTAL 01/01)",
-    "post": "CE-FLA-MES",
+    "employee": "Helena Ferreira",
+    "post": "OR-CE-OPS-001",
     "state": "CE",
-    "expected_time": "19:00",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "JOSÉ ELIAS FERREIRA DE ALMEIDA JUNIOR",
-    "post": "CE-FLA-MGAL",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "FRANCISCO JARDEL DOS SANTOS (VTAL 01/01)",
-    "post": "CE-FLA-MOM",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ENDSON COSTA SILVA (VTAL 01/01)",
-    "post": "CE-FLA-PRN",
-    "state": "CE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "EDUARDO ALVES DA SILVA",
-    "post": "MA-ACD-ACD",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "ANTÔNIO FRANCISCO NASCIMENTO DE ALENCAR",
-    "post": "MA-ITZ-ITZ",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "LUZIVALDO BORGES PINHEIRO",
-    "post": "MA-SLS-ANL",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "SILVIO ROBERTO REIS MÁXIMO",
-    "post": "MA-SLS-CTO",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "DIOGO LUIS RODRIGUES DE SOUZA",
-    "post": "MA-SLS-VHS",
-    "state": "MA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "IVY LOURINHO DE SOUZA (VTAL 01/01)",
-    "post": "PA-BLM-ANN",
+    "employee": "Rodrigo Vieira",
+    "post": "OR-PA-OPS-001",
     "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "MAYLON DE JESUS SILVA DA FONSECA",
-    "post": "PA-BLM-CTO",
+    "employee": "Patrícia Lima",
+    "post": "OR-PA-OPS-001",
     "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "RAFAEL NOGUEIRA MEIRELES",
-    "post": "PA-BLM-MIA",
+    "employee": "Marcelo Vieira",
+    "post": "OR-PA-OPS-001",
     "state": "PA",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "CAUÃ RODRIGUES FERREIRA",
-    "post": "PA-MBA-NBA",
+    "employee": "Melissa Almeida",
+    "post": "OR-PA-OPS-001",
     "state": "PA",
-    "expected_time": "19:00",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "JOSE CLAUDIO MARTINHO DE SANTANA",
-    "post": "PE-RCE-EBVG",
+    "employee": "Samuel Oliveira",
+    "post": "OR-PE-OPS-001",
     "state": "PE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "ADEILSON JOSE DOS SANTOS",
-    "post": "PE-RCE-EBVT",
+    "employee": "Clara Fernandes",
+    "post": "OR-PE-OPS-001",
     "state": "PE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "DANILO ALVES DE BARROS FRANÇA",
-    "post": "PE-SGI-ESGI",
+    "employee": "Guilherme Santos",
+    "post": "OR-PE-OPS-001",
     "state": "PE",
-    "expected_time": "19:00",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Maysa Ribeiro",
+    "post": "OR-PE-OPS-001",
+    "state": "PE",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "ANTÔNIO FRANCISCO CARLOS DA SILVA SANTOS",
-    "post": "PI-TSA-CTOP",
+    "employee": "Marina Lopes",
+    "post": "OR-PI-OPS-001",
     "state": "PI",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "GUSTAVO MARCELO GONÇALVES ALMEIDA",
-    "post": "PI-TSA-JKY",
+    "employee": "Daniel Pereira",
+    "post": "OR-PI-OPS-001",
     "state": "PI",
-    "expected_time": "19:00",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Lorena Souza",
+    "post": "OR-PI-OPS-001",
+    "state": "PI",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Vanderlei Souza",
+    "post": "OR-PI-OPS-001",
+    "state": "PI",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "NAZARENO BARBOSA TRAJANO",
-    "post": "RN-NTL-CTO",
-    "state": "RN",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
-    "active": true
-  },
-  {
-    "employee": "LEANDRO SOARES DA SILVA (VTAL 01/01)",
-    "post": "RO-JIP-EJIP",
+    "employee": "Arthur Nogueira",
+    "post": "OR-RO-OPS-001",
     "state": "RO",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "WALASON NUNES DE CASTRO (VTAL 01/01)",
-    "post": "RO-PVO-ETCN",
+    "employee": "Emanuel Castro",
+    "post": "OR-RO-OPS-001",
     "state": "RO",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
-    "dias": "impares",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
     "active": true
   },
   {
-    "employee": "ANTONIO MARCIO ORLEAN REIS NOGUEIRA",
-    "post": "RO-PVO-EDPO",
+    "employee": "Augusto Pereira",
+    "post": "OR-RO-OPS-001",
     "state": "RO",
-    "expected_time": "19:00",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Marina Ferreira",
+    "post": "OR-RO-OPS-001",
+    "state": "RO",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "KEILA DE SOUZA FEIJÓ",
-    "post": "RR-BVA-CE",
+    "employee": "Murilo Ferreira",
+    "post": "OR-RR-OPS-001",
     "state": "RR",
-    "expected_time": "19:00",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Flávia Moreira",
+    "post": "OR-RR-OPS-001",
+    "state": "RR",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Nathan Costa",
+    "post": "OR-RR-OPS-001",
+    "state": "RR",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
+    "dias": "impares",
+    "active": true
+  },
+  {
+    "employee": "Gustavo Almeida",
+    "post": "OR-RR-OPS-001",
+    "state": "RR",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "MARCIO JOSÉ DOS SANTOS",
-    "post": "SE-AJU-AJU",
+    "employee": "Nathalia Costa",
+    "post": "OR-SE-OPS-001",
     "state": "SE",
-    "expected_time": "19:00",
-    "plantao": "noturno_b",
+    "expected_time": "06:00",
+    "plantao": "diurno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Luiz Henrique Ramos",
+    "post": "OR-SE-OPS-001",
+    "state": "SE",
+    "expected_time": "18:00",
+    "plantao": "noturno_a",
+    "dias": "pares",
+    "active": true
+  },
+  {
+    "employee": "Yasmin Ribeiro",
+    "post": "OR-SE-OPS-001",
+    "state": "SE",
+    "expected_time": "06:00",
+    "plantao": "diurno_b",
     "dias": "impares",
     "active": true
   },
   {
-    "employee": "EUDES SANTOS LEITE",
-    "post": "SE-AJU-GGU",
+    "employee": "Caetano Ribeiro",
+    "post": "OR-SE-OPS-001",
     "state": "SE",
-    "expected_time": "19:00",
+    "expected_time": "18:00",
     "plantao": "noturno_b",
     "dias": "impares",
     "active": true
